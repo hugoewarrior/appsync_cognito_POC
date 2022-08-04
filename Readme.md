@@ -7,20 +7,9 @@
 - Yarn
 - Amplify-CLI `npm install -g @aws-amplify/cli`
 - Serverless Framework `npm install -g serverless`
-- AWS credentials setup
-  - Fast option: credentials have Administrator access (not
-    recommended).
-  - Slower option: add the following permissions to your account:
-      - IAM
-      - S3
-      - CloudWatch
-      - DynamoDB
-      - CloudFormation - Read/Write (custom policy)
-      - AppSync - Administrator
-      - Cognito - Power User
+- AWS CLI with credentials
 
 ##### Installation
-0. Clone repo
 1. Install backend dependencies
 ```sh
 npm install 
@@ -77,4 +66,4 @@ front
 
 7. Now you can start your project by running `npm start` or `yarn start` or `npm run front` if you are currently in root directory.
 
-8. Head to [http://localhost:3000](http://localhost:3000), create your account, confirm, login and chat!
+Source: [https://github.com/chief-wizard/serverless-appsync-chat-app](https://github.com/chief-wizard/serverless-appsync-chat-app)

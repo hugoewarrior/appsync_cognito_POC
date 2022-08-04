@@ -31,8 +31,8 @@ Resources:
                   - "dynamodb:Scan"
                   - "dynamodb:UpdateItem"
                 Resource:
-                  - "arn:aws:dynamodb:${self:provider.region}:579778070687:table/Messages"
-                  - "arn:aws:dynamodb:${self:provider.region}:579778070687:table/Messages/*"
+                  - "arn:aws:dynamodb:${self:provider.region}::table/Messages"
+                  - "arn:aws:dynamodb:${self:provider.region}::table/Messages/*"
   AppSyncLoggingServiceRole:
     Type: "AWS::IAM::Role"
     Properties:
