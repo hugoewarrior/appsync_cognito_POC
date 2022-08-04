@@ -10,7 +10,7 @@
     "aws-sdk": "^2.344.0"
   },
   "scripts": {
-    "front": "cd front && npm start"
+    "front": "cd front && yarn start"
   },
   "author": "Rafal Wilinski",
   "license": "MIT"
